@@ -1,7 +1,7 @@
 var nombre = 'elan', edad = 28;
 
-function imprimirEdad() {
-    console.log(`${nombre} tiene ${edad} años`);
+function imprimirEdad(n,e) {
+    console.log(`${n} tiene ${e} años`);
 }
 
-imprimirEdad();
+imprimirEdad('Marcela',26);
